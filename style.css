@@ -1,0 +1,85 @@
+table,
+td {
+    border: 0px solid #222;
+}
+
+thead,
+tfoot {
+    background-color: #999;
+    color: #000000;
+}
+
+td,
+th {
+    border: 0px solid rgb(190, 190, 190);
+    padding: 5px;
+}
+
+td {
+    text-align: center;
+     cursor: pointer;
+}
+
+
+
+tr:nth-child(even) {
+    background-color: #aaa;
+}
+
+th[scope="row"] {
+    background-color: #EEEEEE;
+}
+
+
+
+.purple-bg {
+
+    background-color:#EE82EE;
+}
+
+.b{
+
+    color:  #000000;
+}
+
+
+.blue-bg {
+
+    background-color: #6495ED
+}
+
+.c{
+
+    color: #000000;
+}
+
+.yellow-bg {
+
+    background-color: #F0E68C
+}
+
+.d{
+
+    color: #000000;
+}
+
+.green{
+    
+    color: #228B22;
+}
+
+.orange-bg{
+
+    background-color: #F4A460;
+}
+
+a[href^="https"]::before {
+  
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: yellow;
+  }
+}
+
